@@ -1,0 +1,41 @@
+body{
+  background-image:url("https://media.istockphoto.com/id/1329052977/photo/smartphone-with-shopping-cart-and-blank-empty-screen-on-blue-stage-background-online-shopping.jpg?s=612x612&w=0&k=20&c=bH9R_JRrIH4DzIfDcwAHACx-mqRKT9PpzK5cOPW-pkM=");
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed;
+  margin:0;
+  min-height:95vh;
+  width:100%;
+  overflow:hidden;
+}
+.heading{
+  padding-top:150px;
+  margin-left:450px;
+  margin-bottom: 60px;
+  font-size:50px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+form {
+  max-width: 400px;
+  margin-left: 400px;
+  font-size:30px;
+  font-family: sans-serif;
+}
+label, input {
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.form-input {
+  width: 100%;
+  box-sizing: border-box;
+}
+button{
+  margin-left: 150px;
+  margin-top: 20px;
+  width:80px;
+  height:30px;
+}
+

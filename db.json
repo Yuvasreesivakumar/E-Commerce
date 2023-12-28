@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "description": "Samsung Galaxy M34 5G (Prism Silver,8GB,128GB)|120Hz sAMOLED Display|50MP Triple No Shake Cam|6000 mAh Battery|4 Gen OS Upgrade & 5 Year Security Update|16GB RAM with RAM+|Android 13|Without Charger",
+      "id": "1",
+      "image": "https://m.media-amazon.com/images/I/5134aj-bXnL._SX300_SY300_QL70_FMwebp_.jpg",
+      "price": 20000,
+      "title": "Samsung SmartPhone"
+    },
+    {
+      "description": "rakva 925 Silver Gift Sister Necklace, Gift For Sister, Sisters Gift, Sister Birthday Christmas Necklace",
+      "id": "2",
+      "image": "https://m.media-amazon.com/images/I/61hYg-FoYIL._SY395_.jpg",
+      "price": 2500,
+      "title": "Photo Frame"
+    },
+    {
+      "description": "wolpin Jewellery Organiser PU Leather Zipper Portable Storage Box Case with Dividers Container for Rings, Earrings, Necklace Home Organizer, Pink",
+      "id": "3",
+      "image": "https://m.media-amazon.com/images/I/71YcTGTv7qL._SX522_.jpg",
+      "price": 500,
+      "title": "Jewellery Organizer"
+    },
+    {
+      "description": "Material type:Polyester,Length:LengthFull,Sleeve type:Sleeveless,Pattern:Embroidered,StyleEmbroidered :Sharara Set",
+      "id": "4",
+      "image": "https://m.media-amazon.com/images/I/61u9-HClzeL._SY550_.jpg",
+      "price": 1500,
+      "title": "Girl Kid Sharara Set"
+    },
+    {
+      "description": "Material type:Cotton,LengthStandard Length,Occasion type:Casual,Sleeve type:Cuff Sleeve,Style:A-Line",
+      "id": "5",
+      "image": "https://m.media-amazon.com/images/I/51l10UZMqnL._SX522_.jpg",
+      "price": 689,
+      "title": "WomenShortDress"
+    },
+    {
+      "description": "ASUS ROG Strix G16 (2023) 90WHr Battery, Intel Core i9-13980HX 13th Gen, 16' QHD+ 240Hz/3ms, 8GB RTX 4060, Gaming Laptop (16GB/1TB SSD/Windows 11/Office 2021/4-Zone RGB/Gray/2.50 Kg), G614JV-N4141WS",
+      "id": "6",
+      "image": "https://m.media-amazon.com/images/I/415qPD7UTWL._SX300_SY300_QL70_FMwebp_.jpg",
+      "price": 180000,
+      "title": "Gaming Laptop"
+    },
+    {
+      "description": "D Unique Home Decor I Love You Papa Customized Photo Frame Unique Birthday Gift For Papa With Aluminum Printed Photo Plate, Tabletop (black).",
+      "id": "7",
+      "image": "https://m.media-amazon.com/images/I/51ESdIAt6DS._SY355_.jpg",
+      "price": 300,
+      "title": "Photo Frame"
+    },
+    {
+      "description": "Noise Pulse 2 Max 1.85, Display, Bluetooth Calling Smart Watch, 10 Days Battery, 550 NITS Brightness, Smart DND, 100 Sports Modes, Smartwatch for Men and Women (Jet Black)",
+      "id": "8",
+      "image": "https://m.media-amazon.com/images/I/41UoKKWuxjL._SX300_SY300_QL70_FMwebp_.jpg",
+      "price": 12000,
+      "title": "Noise Smart Watch"
+    }
+
+  ]
+}

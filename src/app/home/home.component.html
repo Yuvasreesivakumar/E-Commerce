@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="search">
+    <app-search-bar (search)="search($event)"></app-search-bar>
+  </div>
+  <div class="row">
+
+<ng-container *ngFor="let item of productlist">
+
+    <div class="card-col-md-3">
+
+      <img src="{{item.image}}" alt="">
+      <h5 style="white-space:nowrap;overflow: hidden;text-overflow: ellipsis;max-width:100ch;">{{item.title}}</h5>
+      <p>{{item.description}}</p>
+      <p><strong>Amount:</strong>Rs.{{item.price}}/-</p>
+      <button class="cart-bt" (click)="addtocart(item)">Add to cart</button>
+    </div>
+</ng-container>
+  </div>
+</div>

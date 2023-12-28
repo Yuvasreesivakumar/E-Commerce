@@ -1,0 +1,57 @@
+.container{
+  margin-top: 80px;
+  margin-bottom: 95px;
+  padding-top:50px;
+  align-items: center;
+}
+table {
+  border-collapse:collapse;
+  width: 99%;
+  margin-left:10px;
+  border-radius:0.6rem;
+}
+th, td {
+  border: 0.3px solid grey;
+  padding: 10px;
+  text-align: center;
+}
+.btn{
+  background-color:red;
+  height:35px;
+  border-color:white;
+  border-radius: 0.5rem;
+}
+.bt{
+  background-color:red;
+  color:white;
+  border-color:white;
+  border-radius: 0.5rem;
+}
+.shop-bt{
+  background-color:green;
+  color:white;
+  border-color:white;
+  border-radius: 0.5rem;
+}
+.checkout-bt{
+  background-color:yellow;
+  color:black;
+  border-color:white;
+  border-radius: 0.5rem;
+}
+.shopnow-bt{
+  background-color:black;
+  color:white;
+  border-color:white;
+  border-radius: 0.5rem;
+}
+.center{
+  position:absolute;
+  top:45%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+}
+h3,h4{
+  font-weight:400 ;
+}

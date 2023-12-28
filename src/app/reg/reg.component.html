@@ -1,0 +1,22 @@
+<body class="reg">
+<div class="Sign-up">
+<div class="heading">
+  <h3>Sign-up</h3>
+</div>
+<form>
+  <label  for="name">Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <input type="text" id="name" required>
+  <br>
+  <label  for="email">E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <input type="email" id="email"required>
+  <br>
+  <label  for="mobno">Mobile No</label>
+  <input type="number" id="mobno" required [maxLength]="10" minlength="10">
+  <br>
+  <label for="password">Password </label>
+  <input type="password" id="password" required>
+  <br>
+  <button routerLink="">Sign-in</button>
+</form>
+</div>
+</body>

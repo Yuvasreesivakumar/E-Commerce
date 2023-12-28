@@ -1,0 +1,22 @@
+.search{
+  margin-top:45px;
+  flex:1;
+  display: flex;
+  margin-left: 20%;
+  margin-right: 25%;
+  justify-content: space-between;
+  gap:1px;
+}
+.search input{
+  flex: 1;
+  color:black;
+  border: 1px solid grey;
+  height: 28px;
+  padding:5px;
+
+}
+.search button{
+  color: grey;
+  border: 1px solid grey;
+  height:40px;
+}

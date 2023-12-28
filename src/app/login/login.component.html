@@ -1,0 +1,45 @@
+<body class="log-in">
+<div class="user">
+  <div class="usersignup">
+    <h4 id="title">Login</h4>
+
+    <form #userSignUp="ngForm" (ngSubmit)="signUp(userSignUp.value)" class="common-form">
+
+      <div class="form-input-container">
+        <label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input id="email"class="form-input" type="email" name="email" ngModel required pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
+      #email="ngModel" placeholder="Email">
+        <div class="error-msg" *ngIf="email.invalid && (email.dirty || email.touched)">
+          <div *ngIf="email.errors?.['required']">
+            Email is required.
+          </div>
+          <div *ngIf="email.errors?.['pattern']">
+            Please enter a valid email address.
+          </div>
+        </div>
+      </div>
+
+      <div class="form-input-container">
+      <label for="password">Password&nbsp;</label>
+      <input id="password" class="form-input" type="password" name="password" ngModel required minlength="8" #password="ngModel"
+    placeholder="Password">
+      <div class="error-msg" *ngIf="password.invalid && (password.dirty || password.touched)">
+        <div *ngIf="password.errors?.['required']">
+          Password is required.
+        </div>
+        <div *ngIf="password.errors?.['minlength']">
+          Minimum Password Length must be 8.
+        </div>
+      </div>
+    </div>
+    <button routerLink="" class="form-button" type="submit" [disabled]="userSignUp.invalid">Sign-Up</button>
+    <div class="Reg">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New User <button routerLink="/Reg" style="color: rgb(0, 2, 7);">Register</button></p>
+    </div>
+  </form>
+
+  </div>
+
+</div>
+
+</body>
